@@ -15,12 +15,3 @@ window.STACK.myJSON = myJSON;
 
 
 //--------------------------------------------------------------------------------------
-//Closures
-var fun = (data) =>{
-  var temp  = 1;
-  return function(){
-    console.log(temp);
-  }
-}
-
-fun();
